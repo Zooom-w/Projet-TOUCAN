@@ -1,0 +1,446 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#body {
+    background: url(wepik-export-20231213112238IJiw.jpeg);
+}
+
+a {
+    text-decoration: none;
+}
+
+#h1 {
+    font-size: 30px;
+    font-family: Julius Sans One;
+    color: green;
+    margin-top: 27px;
+    margin-left: 20px;
+}
+
+#main {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 240px;
+}
+
+.text1 {
+    font-size: 18px;
+    font-family: Julius Sans One;
+    color: green;
+    margin-right: 199px;
+}
+
+.text2 {
+    font-size: 18px;
+    font-family: Julius Sans One;
+    color: green;
+    margin-top: 35px;
+    margin-bottom: 46px;
+    margin-left: 57px;
+}
+
+.text3 {
+    font-size: 18px;
+    font-family: Julius Sans One;
+    color: green;
+    margin-top: -16px;
+    margin-left: 228px;
+}
+
+
+.div1 {
+    border: 2px solid green;
+    border-left: none;
+    border-bottom: none;
+    width: 131px;
+    height: 119px;
+    margin-top: -119px;
+    margin-left: 813px;
+}
+
+.div2 {
+    border: 2px solid green;
+    border-right: none;
+    border-top: none;
+    width: 131px;
+    height: 119px;
+    margin-top: -69px;
+    margin-left: -5px;
+}
+
+#section {
+    width: 785px;
+    height: 142px;
+    border-radius: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#h2 {
+    font-size: 25px;
+    font-family: Julius Sans One;
+    color: green;
+    margin-right: 33px;
+}
+
+#alert {
+    margin-top: 20px;
+    font-size: 15px;
+    font-family: Julius Sans One;
+    margin-left: 57px;
+}
+
+#field {
+    background-color: #00800085;
+    width: 500px;
+    height: 59px;
+    border-radius: 8px;
+    border: transparent;
+    color: #FFFFDD;
+    font-size: 18px;
+    font-family: Julius Sans One;
+    text-align: center;
+    outline: transparent;
+}
+
+#icone {
+    height: 45px;
+}
+
+#ok {
+    background-color: #f0f8ff00;
+    border: transparent;
+    margin-left: 20px;
+}
+
+/**********************************RESULTAT**************************************************/
+.div3 {
+    border: 2px solid green;
+    border-left: none;
+    border-bottom: none;
+    width: 131px;
+    height: 119px;
+    margin-left: 656px;
+}
+
+.divglob {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 108px;
+}
+/* 
+#section2 {
+    width: 964px;
+    height: 686px;
+    align-items: center;
+    margin-left: 582px;
+    margin-top: 169px;
+    display: none;
+    visibility: hidden;
+    position: fixed;
+    overflow-y: auto;
+    overflow-x: hidden;
+} */
+
+#section2 {
+    width: 964px;
+    height: 686px;
+    display: none;
+    visibility: hidden;
+    position: fixed;
+    bottom: 43px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+
+#code {
+    color: green;
+    font-size: 21px;
+    position: relative;
+    margin-left: 311px;
+    font-family: sans-serif;
+}
+
+#img {
+    width: 104px;
+    height: 223px;
+    position: relative;
+    bottom: 53px;
+    left: 66px;
+    object-fit: contain;
+}
+
+#nom {
+    color: green;
+    font-size: 21px;
+    font-family: sans-serif;
+}
+
+#marque {
+    color: green;
+    font-size: 21px;
+    font-family: sans-serif;
+}
+
+#categorie {
+    color: green;
+    font-size: 21px;
+    font-family: sans-serif;
+}
+
+#packaging {
+    color: green;
+    font-size: 21px;
+    font-family: sans-serif;
+}
+
+#ingredients {
+    color: green;
+    font-size: 21px;
+    font-family: sans-serif;
+}
+
+#alergenes {
+    color: green;
+    font-size: 21px;
+    font-family: sans-serif;
+}
+
+.blog {
+    position: relative;
+    left: 311px;
+    bottom: 168px;
+}
+
+.barre {
+    width: 813px;
+    border: 1px dashed green;
+    margin-left: -26px;
+    margin-top: 78px;
+}
+
+.divcategorie {
+    width: 796px;
+    margin-top: -58px;
+}
+
+.divingredients {
+    margin-top: 50px;
+    width: 796px;
+}
+
+.divalergenes {
+    margin-top: 50px;
+    width: 796px;
+}
+
+.divpackaging {
+    margin-top: 50px;
+    width: 796px;
+}
+
+#rotate {
+    visibility: visible; /* par défaut, masquez l'icône de chargement */
+    width: 50px;   /* ajustez la largeur selon vos besoins */
+    height: 50px;  /* ajustez la hauteur selon vos besoins */
+    border-radius: 50%; /* pour un aspect circulaire */
+    border-top: 4px solid burlywood; /* couleur de la partie supérieure de la bordure, peut être différente pour un effet de rotation */
+    animation: spin 1s linear infinite;
+    position: relative;
+    bottom: 70px;
+    left: 66px;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+#annuler {
+    position: relative;
+    bottom: 101px;
+    left: 707px;
+}
+
+/***********************RESPONSIVE*********************************************/
+
+@media screen and (max-width: 991px) {
+    
+    #main {
+        margin-right: 29px;
+        margin-top: 312px;
+    }    
+
+    .div1 {
+        width: 354px;
+        height: 88px;
+        margin-right: 779px
+    }
+
+    .associed2 {
+        margin-top: -190px;
+    }
+
+    .div2 {
+        width: 356px;
+        height: 88px;
+        margin-left: 33px;
+    }
+
+    .text1 {
+        margin-top: -125px;
+        width: 349px;
+        margin-left: 815px;
+        margin-bottom: 26px;
+    }
+
+    .text2 {
+        margin-top: 94px;
+        margin-left: -37px;
+        display: none;
+    }
+
+    .text3 {
+        margin-left: 57px;
+        width: 316px;
+        margin-top: -90px;
+    }
+
+    #h2 {
+        display: none;
+    }
+
+    #row {
+        margin-top: -318px;
+        margin-left: 100px;
+    }
+
+
+
+    #field {
+        width: 305px;
+        margin-left: -94px;
+        border-radius: 8px;
+        height: 59px;
+    }
+
+    #ok {
+        margin-left: 9px;
+    }
+
+    #alert {
+        margin-left: 3px;
+    }
+
+    #section {
+        width: 369px;
+        height: 532px;
+        margin-left: 24px;
+    }
+
+    .barre {
+        width: 390px;
+        margin-left: 18px;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+
+
+    #section2 {
+        width: 371px;
+    }
+
+    .div3 {
+        margin-left: 235px;
+    }
+
+    #code {
+        margin-left: 20px;
+        position: relative;
+        top: -125px;
+        font-size: 17px;
+    }
+
+    #nom {
+        font-size: 17px;
+        width: 343px;
+    }
+
+    #marque {
+        font-size: 17px;
+        width: 343px;
+    }
+
+    #img {
+        left: 126px;
+        bottom: 10px;
+    }
+
+    .blog {
+        position: relative;
+        left: 20px;
+        bottom: 323px;
+    }
+
+    .divcategorie {
+       width: 333px;
+       margin-left: 18px;
+    }
+
+    #categorie {
+        font-size: 18px;
+    }
+
+    .divingredients {
+        width: 333px;
+        margin-left: 18px;
+     }
+ 
+     #ingredients {
+         font-size: 18px;
+     }
+
+     .divalergenes {
+        width: 333px;
+        margin-left: 18px;
+     }
+ 
+     #alergenes {
+         font-size: 18px;
+     }
+
+     .divpackaging {
+        width: 333px;
+        margin-left: 18px;
+     }
+ 
+     #packaging {
+         font-size: 18px;
+     }
+
+     #annuler {
+        left: 288px;
+     }
+ 
+ 
+ 
+
+}
