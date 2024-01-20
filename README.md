@@ -5,7 +5,9 @@ Bienvenue dans le projet Info-Product EAN ! Ma mission est de simplifier l'accè
 ## Objectif
 
 Permettre aux utilisateurs de scanner un code EAN et d'obtenir des informations utiles sur le produit associé tout en favorisant une expérience utilisatrice conviviale et personnalisée.  
+
 Mon but est de fournir une interface permettant d'avoir une totale conscience des composants des produits et ainsi pouvoir être véritablement maitre de votre corps par le billet de la maitrise de votre consommation.
+
 Ce projet m'a beaucoup tenu à coeur en vue de ma sensibilisation envers les produits chimiques et néfaste. Il est clair que de nos jours avec les composants qui facilitent la conservation il est difficile de trouver un produit sans substances chimiques, mais nous avons aujourd'hui les ressources pour les identifier et ne pas vivre dans l'ignorance. Ainsi, libre à nous de consommer le produit, ou opter pour une preparation naturelle. 
 
 Pour les personnes interessées par la consommation naturelle, j'ai l'idée d'un projet permettant de regrouper des recettes qui on pour but de se rapprocher du produit vendu et surement "chimique" par une recette delicieuse et naturelle. 
