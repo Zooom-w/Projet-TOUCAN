@@ -31,5 +31,4 @@ Je met l'accent sur l'expérience humaine dans mon projet. Les retours et les é
 ## Comment Exécuter le Projet Localement
 
 1. Clonez ce référentiel sur votre machine locale.
-   ```bash
-   git clone https://github.com/votre-utilisateur/info-product-ean.git
+  
