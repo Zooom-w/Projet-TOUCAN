@@ -31,4 +31,7 @@ Je met l'accent sur l'expérience humaine dans mon projet. Les retours et les é
 ## Comment Exécuter le Projet Localement
 
 1. Clonez ce référentiel sur votre machine locale.
+
+![Screenshot 2024-01-24 at 10-08-30 TOUCAN](https://github.com/Zooom-w/Projet-TOUCAN/assets/148760503/9a81ce45-8708-4d57-8ee8-b94dd870e366)
+
   
